@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+        <section id="about" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
             {/* Background gradients */}
             <div className="absolute top-20 right-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] pointer-events-none animate-pulse" />
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-teal-500/20 rounded-full blur-[120px] pointer-events-none animate-pulse delay-1000" />
@@ -78,7 +78,7 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="relative hidden md:block"
+                    className="relative block"
                 >
                     <div className="relative w-full aspect-square max-w-md mx-auto">
                         <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-teal-500/10 rounded-full blur-2xl opacity-50" />
