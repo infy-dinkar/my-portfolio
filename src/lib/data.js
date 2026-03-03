@@ -10,7 +10,14 @@ export const DATA = {
     twitter: "", // Not provided
     youtube: "https://www.youtube.com/@NeuralMinds3",
   },
-  about: "I am a Data Science and Artificial Intelligence undergraduate at IIT Guwahati (2023-2027) with a passion for Machine Learning and Deep Learning. I have experience in supervised & unsupervised learning, model training, and feature engineering. Currently working as an AI & ML Freelancer.",
+  youtubeChannel: {
+    name: "NeuralMinds",
+    url: "https://www.youtube.com/@NeuralMinds3",
+    description: "Trained learners in Data Science, AI/ML and Mathematics using practical, hands-on methods as initial co-founder and mentor.",
+    subscribers: "200+",
+    videos: "50+",
+  },
+  about: "I am a Data Science and Artificial Intelligence undergraduate at IIT Guwahati (2023-2027) with Skills in AI ,DEEP LEARNING AND ML. I am working on GEN AI and DEEP LEARNING PRODUCTS via Freelancing.",
   education: [
     {
       institution: "IIT GUWAHATI",
@@ -39,53 +46,99 @@ export const DATA = {
       description: "Working on various AI/ML projects involving model training, evaluation, and deployment.",
     },
   ],
-  skills: {
-    languages: ["Python", "SQL (3⭐ HackerRank)", "Java"],
-    ml_dl: [
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Model Training & Evaluation",
-      "Feature Engineering",
-      "Neural Networks",
-      "CNNs",
-    ],
-    frameworks: [
-      "Pandas",
-      "NumPy",
-      "Scikit-Learn",
-      "Matplotlib",
-      "TensorFlow",
-      "Keras",
-      "PyTorch",
-    ],
-    tools: ["Power BI", "Excel", "MySQL"],
-    platforms: ["Jupyter Notebook", "Google Colab", "VS Code"],
-  },
+  skills: [
+    {
+      id: "01",
+      title: "Generative AI & LLMs",
+      items: [
+        "LangChain",
+        "Ollama",
+        "HuggingFace",
+        "Groq",
+        "RAG",
+      ],
+      description:
+        "Experienced in chatbot development, RAG workflows, AI agents, prompt engineering, and fine-tuning LLMs for domain-specific applications.",
+    },
+    {
+      id: "02",
+      title: "AI-ML",
+      items: [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Neural Networks",
+        "CNNs",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "Scikit-Learn",
+        "Pandas",
+        "NumPy",
+      ],
+      description:
+        "Strong understanding of machine learning algorithms, deep learning architectures, and model evaluation techniques.",
+    },
+    {
+      id: "03",
+      title: "Visualization & BI Tools",
+      items: ["Power BI", "Excel", "Matplotlib", "Seaborn"],
+      description:
+        "Proficient in creating interactive dashboards and visualizing complex datasets to drive business insights.",
+    },
+    {
+      id: "04",
+      title: "Development, Web & Version Control",
+      items: [
+        "Python",
+        "Java",
+        "SQL",
+        "MySQL",
+        "VS Code",
+        "Jupyter Notebook",
+        "Google Colab",
+        "Git",
+        "GitHub",
+      ],
+      description:
+        "Intermediate in software development, database management and experienced in git and using modern tools",
+    },
+    {
+      id: "05",
+      title: "n8n Automation",
+      items: [
+        "n8n",
+      ],
+      description:
+        "Intermediate in automation",
+    },
+  ],
   projects: [
     {
+      title: "AstroBot",
+      tagline: "AI Chatbot for Space & Weather Data",
+      description: "Built a domain-specific chatbot for ISRO's MOSDAC data with natural-language querying for satellites, missions, and weather. Integrated 1000+ documents into an Llama-3.1 RAG pipeline. Added speech-to-text, conversational memory, and PDF export.",
+      tech: ["LangChain", "RAG", "LLaMA-3.1", "FAISS", "Flask", "Web Crawling"],
+      link: "#",
+      github: "https://github.com/infy-dinkar/AstroBot",
+      image: "/astro-bot-new.png"
+    },
+    {
       title: "Face-Recognition",
+      tagline: "Multi-Video Tracking System",
       description: "This project is designed for detecting and tracking a specific person across multiple videos. It extracts the number of times they appear and calculates the total duration of their presence in each video.",
       tech: ["Python", "Opencv", "deepface", "torch", "ultralytics", "YOLOv8"],
       link: "#",
       github: "https://github.com/infy-dinkar/Face-Recognition",
-      image: "/face-recognition.png"
-    },
-    // Placeholder for other projects as none were explicitly detailed with links/descriptions in the prompt
-    {
-      title: "AstroBot - AI-Powered Space & Weather Assistant",
-      description: "A comprehensive AI chatbot web application that provides real-time information about satellites, weather data, and space research using MOSDAC (ISRO) data sources.",
-      tech: ["Langchain", "RAG", "LLMA-3.1", "FAISS", "Webcrwaling", "Flask"],
-      link: "#",
-      github: "https://github.com/infy-dinkar/AstroBot",
-      image: "/Astro-bot.png"
+      image: "/face-tracking-new.png"
     },
     {
       title: "Momenta Audio Deepfake Detection",
+      tagline: "Voice Authenticity Analysis",
       description: "Audio deepfakes pose a growing threat to digital trust, with AI-generated voices being used for misinformation, fraud, and other malicious activities.",
       tech: ["Deep Learning", "Audio Processing", "Flask"],
       link: "#",
       github: "https://github.com/infy-dinkar/Momenta-Audio-Deepfake-Detection",
-      image: "/Voice detect.png"
+      image: "/audio-deepfake-new.png"
     }
   ],
 };

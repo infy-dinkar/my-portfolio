@@ -1,45 +1,47 @@
 @import "tailwindcss";
 
 @theme {
-  --color-gold-400: #ffbf46;
-  --color-gold-500: #f5a623;
-  --color-teal-400: #66ced6;
-  --color-teal-500: #4db6be;
+  --color-red-500: #e11d48;
+  --color-red-600: #be123c;
+  --color-blue-500: #2563eb;
+  --color-blue-600: #1d4ed8;
+  --color-blue-100: #dbeafe;
 
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
 }
 
 :root {
-  --background: #09090b;
-  /* zinc-950 */
-  --foreground: #fafafa;
-  /* zinc-50 */
+  --background: #ffffff;
+  /* white */
+  --foreground: #0f172a;
+  /* slate-900 */
 
-  --card: #18181b;
-  /* zinc-900 */
-  --card-foreground: #fafafa;
+  --card: #f1f5f9;
+  /* slate-100 */
+  --card-foreground: #0f172a;
 
-  --primary: #ffbf46;
-  /* Gold */
-  --primary-foreground: #09090b;
+  --primary: #2563eb;
+  /* Blue-600 */
+  --primary-foreground: #ffffff;
 
-  --secondary: #27272a;
-  /* zinc-800 */
-  --secondary-foreground: #fafafa;
+  --secondary: #e11d48;
+  /* Red */
+  --secondary-foreground: #ffffff;
 
-  --muted: #27272a;
-  --muted-foreground: #a1a1aa;
+  --muted: #e2e8f0;
+  /* slate-200 */
+  --muted-foreground: #64748b;
+  /* slate-500 */
 
-  --border: #27272a;
-  --input: #27272a;
-  --ring: #ffbf46;
+  --border: #cbd5e1;
+  /* slate-300 */
+  --input: #f1f5f9;
+  --ring: #2563eb;
 }
 
-
-
 body {
-  background: radial-gradient(circle at 50% 0%, #1a1a1e 0%, var(--background) 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #f0f6ff 60%, #ffe8ec 100%);
   color: var(--foreground);
   font-family: var(--font-sans);
   overflow-x: hidden;
@@ -56,15 +58,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--background);
+  background: #f1f5f9;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--primary);
   border-radius: 5px;
-  border: 2px solid var(--background);
+  border: 2px solid #f1f5f9;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-gold-500);
+  background: #e11d48;
 }
