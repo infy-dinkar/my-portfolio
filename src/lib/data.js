@@ -17,7 +17,7 @@ export const DATA = {
     subscribers: "200+",
     videos: "50+",
   },
-  about: "I am a Data Science and Artificial Intelligence undergraduate at IIT Guwahati (2023-2027) with Skills in AI ,DEEP LEARNING AND ML. I am working on GEN AI and DEEP LEARNING PRODUCTS via Freelancing.",
+  about: "Data Science and Artificial Intelligence undergraduate at IIT Guwahati (2023-2027).AI Engineer focus on creating scalable,impactful products using GenAI,Deep Learning and ML",
   education: [
     {
       institution: "IIT GUWAHATI",
@@ -87,6 +87,16 @@ export const DATA = {
     },
     {
       id: "04",
+      title: "Deployment",
+      items: [
+        "AWS",
+        "Microsoft Azure",
+      ],
+      description:
+        "Intermediate in deploying AI/ML applications and cloud services using AWS and Microsoft Azure platforms.",
+    },
+    {
+      id: "05",
       title: "Development, Web & Version Control",
       items: [
         "Python",
@@ -103,7 +113,7 @@ export const DATA = {
         "Intermediate in software development, database management and experienced in git and using modern tools",
     },
     {
-      id: "05",
+      id: "06",
       title: "n8n Automation",
       items: [
         "n8n",
