@@ -17,7 +17,7 @@ export const DATA = {
     subscribers: "200+",
     videos: "50+",
   },
-  about: "Data Science and Artificial Intelligence undergraduate at IIT Guwahati (2023-2027).AI Engineer focus on creating scalable,impactful products using GenAI,Deep Learning and ML",
+  about: "Data Science and Artificial Intelligence undergraduate at IIT Guwahati'27.AI Engineer focus on creating scalable,impactful products using GenAI,Deep Learning and ML",
   education: [
     {
       institution: "IIT GUWAHATI",
